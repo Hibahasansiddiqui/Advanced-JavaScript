@@ -5,3 +5,12 @@ window.onload = function() {
     // use ... in console when you want to spread the variables out of the array
     console.log (...y);
 }
+
+function sum(x, y, z) {
+    return x + y + z;
+}
+
+const numbers = [1, 2, 3];
+
+console.log(sum(...numbers)); //Result: 6
+
